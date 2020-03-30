@@ -1,0 +1,14 @@
+<div class="container">
+  <form (submit)="onSubmit()">
+    <mat-form-field>
+      <input
+      matInput
+      type="text"
+      placeholder="title"
+      name="enteredlistnanme"
+      [ngModel]
+      required
+      minlength="2">
+    </mat-form-field>
+  </form>
+</div>
